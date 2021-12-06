@@ -39,6 +39,7 @@ Changes = "https://github.com/vcs-python/vcspull/blob/master/CHANGES"
 
 [tool.poetry.scripts]
 vcspull = 'vcspull:cli.cli'
+g = 'vcspull:cli.cli'
 
 [tool.poetry.dependencies]
 python = "^3.7"
